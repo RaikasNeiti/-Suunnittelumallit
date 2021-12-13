@@ -17,7 +17,7 @@ public class Main extends Application {
 		    FlowPane pane = new FlowPane();
 			pane.setBorder(BorderFactory.INSTANCE.getBorder());
 			
-			pane.setVgap(6);  
+			pane.setVgap(10);
 		    pane.setHgap(5);  
 		    pane.setPrefWrapLength(2);  
 		    pane.getChildren().add(new Button("Start"));  
